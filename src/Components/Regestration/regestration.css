@@ -1,0 +1,12 @@
+.title {
+  background-color: rgb(111, 155, 46);
+  color: #fff;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+
+  span {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}

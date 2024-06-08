@@ -1,0 +1,87 @@
+.footer ul {
+  list-style-type: none;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20.6px;
+  margin-top: 2rem;
+
+}
+
+.footer li:hover{
+    color: greenyellow;
+    cursor: pointer;
+}
+
+.footer-rightside {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.column1 li:first-child {
+  color: black;
+  font-size: x-large;
+}
+.lc ul li:first-child {
+  color: black;
+  font-size: x-large;
+}
+
+.column4 li:first-child {
+  color: black;
+  font-size: x-large;
+}
+
+.footer-lastcolumn {
+  color: black;
+  font-size: x-large;
+}
+
+.footer-leftside {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2px;
+   
+}
+
+/* .footer-leftside li{
+
+    column-gap: 20px;
+} */
+
+
+
+.footer-rightside {
+  border: 1px solid rgb(167, 182, 146);
+  width: 20rem;
+  height: 10rem;
+  padding-left: 0.1rem;
+  padding-right: 2rem;
+
+  h3 {
+    font-size: x-large;
+    font-weight: bolder;
+  }
+  p {
+    font-weight: 800;
+  }
+  button {
+    font-weight: bold;
+    width: 8rem;
+    height: 2rem;
+  }
+  button:hover {
+    position: relative; /* Relative positioning for pseudo-element */
+    display: inline-block;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(111, 155, 46); /* Button background color */
+    cursor: pointer;
+    overflow: hidden; /* Hide overflow for pseudo-element */
+    transition: background-color 2s ease; /* Smooth transition for background color */
+  }
+}

@@ -1,26 +1,34 @@
-import React, { useState } from 'react';
-import './DarkModeNavbar.css';
+import React, { useState, useEffect } from 'react';
+import './DarkModeNavbar.css'
 
 function DarkModeNavbar() {
-    const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(false);
 
-    const toggleDarkMode = () => {
-        setDarkMode(prevDarkMode => !prevDarkMode);
-    };
+  useEffect(() => {
+    const body = document.body;
+    if (darkMode) {
+      body.classList.add('dark-mode');
+    } else {
+      body.classList.remove('dark-mode');
+    }
+  }, [darkMode]);
 
-    return (
-        <nav className={`navbar ${darkMode ? 'dark-mode' : ''}`}>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-            <label className="switch">
-                <input type="checkbox" onChange={toggleDarkMode} />
-                <span className="slider round"></span>
-            </label>
-        </nav>
-    );
+  const toggleDarkMode = () => {
+    setDarkMode(!darkMode);
+  };
+
+  return (
+    <div className="darkmodebutton">
+      <header>
+        <button onClick={toggleDarkMode}>
+          {darkMode ? '' : ''}
+        </button>
+      </header>
+      <main>
+        {/* Your app content goes here */}
+      </main>
+    </div>
+  );
 }
 
 export default DarkModeNavbar;

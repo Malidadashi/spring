@@ -1,0 +1,7 @@
+.levelup {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+  row-gap: 30rem;
+}

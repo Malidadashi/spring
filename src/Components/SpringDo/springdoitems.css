@@ -1,0 +1,10 @@
+
+.item {
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 8px;
+    width: calc(25% - 16px); /* Adjust width to fit 4 boxes per row */
+    box-sizing: border-box;
+    text-align: center;
+  }
+  

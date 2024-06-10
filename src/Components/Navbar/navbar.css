@@ -4,6 +4,44 @@
     flex-wrap: wrap;
 }
 
+/* .navbar {
+  display: flex;
+  background-color: #333;
+  padding: 10px;
+}
+
+.navbar-item {
+  position: relative;
+  margin: 0 15px;
+  color: white;
+  cursor: pointer;
+}
+
+.title {
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+.subtitles {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #444;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.subtitle {
+  padding: 5px 10px;
+  color: #ddd;
+}
+
+.subtitle:hover {
+  background-color: #555;
+}
+
+
 
 /* 
 

@@ -1,0 +1,38 @@
+.survey {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  gap: 2rem;
+  button {
+    background-color: rgb(131, 166, 231);
+    width: 4rem;
+    height: 2rem;
+    border-radius: 0.9rem;
+  }
+  p {
+    display: inline-block;
+    position: relative;
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  p::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: -3px;
+    left: 0;
+    background-color: #333;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  p:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+}

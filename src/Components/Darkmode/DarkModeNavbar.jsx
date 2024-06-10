@@ -18,7 +18,7 @@ function DarkModeNavbar() {
   };
 
   return (
-    <div className="darkmodebutton">
+    <div className="dark-mode">
       <header>
         <button onClick={toggleDarkMode}>
           {darkMode ? '' : ''}

@@ -4,4 +4,8 @@
   flex-wrap: wrap;
   margin-top: 1rem;
   row-gap: 30rem;
+    /* background: linear-gradient(to right, #ff7e5f, #feb47b); Example gradient background */
+  /* background-repeat: no-repeat;
+  background-attachment: fixed; */
+
 }

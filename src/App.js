@@ -7,12 +7,19 @@ import Navbar from "./Components/Navbar/Navbar.jsx";
 import DarkModeNavbar from "./Components/Darkmode/DarkModeNavbar.jsx";
 import SpringdoContainer from "./Components/SpringDo/SpringdoContainer.jsx";
 import LevelUp from "./Components/LevelUp/LevelUp.jsx";
+import Survey from './Components/Survey/Survey.jsx'
+import Quickstart from "./Components/Quickstart/Quickstart.jsx";
+import GetaheadContainer from "./Components/Getahead/GetaheadContainer.jsx";
 
 const App = () => {
   return (
     <>
+
       <Regestration />
       <Navbar />
+      <Quickstart />
+      <GetaheadContainer/>
+      <Survey />
       <LevelUp />
       <SpringdoContainer />
       <Footer />

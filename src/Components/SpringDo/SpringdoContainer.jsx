@@ -17,7 +17,7 @@ const items = [
 ];
 const SpringdoContainer = () => {
   return (
-    <div>
+    <div className="container">
       {items.map((item, index) => (
         <SpringDoItems
           key={index}

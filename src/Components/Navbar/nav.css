@@ -1,0 +1,51 @@
+/* 
+
+/* src/Navbar.css */
+.nav {
+  display: flex;
+  background-color: #6e6565;
+  padding: 1px;
+}
+
+.navbar-item {
+  position: relative;
+  margin: 0 20px;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.navbar-item:hover {
+  background-color: #555;
+}
+
+.navbar-dropdown {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  background-color: #333;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  z-index: 1;
+  display: none;
+  flex-direction: column;
+  border: 1px solid #555;
+}
+
+.navbar-item:hover .navbar-dropdown {
+  display: flex;
+}
+
+.navbar-dropdown-item {
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+  border-bottom: 1px solid #555;
+}
+
+.navbar-dropdown-item:last-child {
+  border-bottom: none;
+}
+
+.navbar-dropdown-item:hover {
+  background-color: #555;
+}

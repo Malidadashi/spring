@@ -3,6 +3,25 @@
     justify-content: space-around;
     flex-wrap: wrap;
 }
+/* src/App.css */
+/* body.light-mode {
+  background-color: white;
+  color: black;
+}
+
+body.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  margin-top: 20%;
+}
+ */
 
 /* .navbar {
   display: flex;

@@ -10,6 +10,7 @@ import LevelUp from "./Components/LevelUp/LevelUp.jsx";
 import Survey from './Components/Survey/Survey.jsx'
 import Quickstart from "./Components/Quickstart/Quickstart.jsx";
 import GetaheadContainer from "./Components/Getahead/GetaheadContainer.jsx";
+import Overview from "./Components/Overview/Overview.jsx";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <Quickstart />
       <GetaheadContainer/>
       <Survey />
+      <Overview/>
       <LevelUp />
       <SpringdoContainer />
       <Footer />

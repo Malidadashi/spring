@@ -25,7 +25,6 @@ function DarkModeNavbar() {
         </button>
       </header>
       <main>
-        {/* Your app content goes here */}
       </main>
     </div>
   );

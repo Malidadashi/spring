@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import error from "../../assets/error.png";
 import "./errorpage.css";
-import "../../assets/404-error.mp4";
+import "../../assets/error.mp4";
 const ErrorPage = () => {
   return (
     <div className="notfound">
@@ -25,7 +25,7 @@ const ErrorPage = () => {
           <video autoPlay loop muted>
             <source src={404-error} type="video/mp4" />
           </video>
-          <video src={404-error}/>
+          <video src={error}/>
         </div>
       </div>
     </div>

@@ -1,0 +1,17 @@
+/* src/styles/FoodList.css */
+.food-list {
+    flex: 2;
+  }
+  
+  .food-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .food-list li {
+    background-color: #f9f9f9;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  

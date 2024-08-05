@@ -9,6 +9,7 @@ import ErrorPage from "./Components/Errorpage/Errorpage.jsx";
 import SpringdoContainer from "./Components/SpringDo/SpringdoContainer.jsx";
 import LevelUp from "./Components/LevelUp/LevelUp.jsx";
 import Overview from "./Components/Overview/Overview.jsx";
+import AuthProvider from "./Components/AuthProvider.js";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -22,6 +23,8 @@ root.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />} />
+      <Route path="/" element={<AuthProvider />} />
+
       <Route path="/*" element={<ErrorPage />} />
       <Route path="/springdo" element={<SpringdoContainer />} />
       <Route path="/levelup" element={<LevelUp />} />
